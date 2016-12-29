@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestWT"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a test for upload  data of .framwork"
 
   # This description is used to generate tags and improve search results.
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.vendored_frameworks = "AMapNaviKit"
+  s.vendored_frameworks = "AMapNaviKit.framework"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 

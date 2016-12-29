@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestWT"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This is a test for upload  data of .framwork"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                  we are testing dkkkkkkkkkkkkkkkkl
+                  we are testing dkdslkfjlsdjglksjngkldfjglkdjfglkdjflkgjdflkgjdklfjgdklkkkkkkkkkkkkkkkl
                    DESC
 
   s.homepage     = "https://baidu.com/"
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.weak_frameworks = "AMapNaviKit"
+  s.vendored_frameworks = "AMapNaviKit"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
